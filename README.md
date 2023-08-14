@@ -10,7 +10,7 @@ Once you have installed the required libraries, you can use the following steps 
 1. Create a directory to store your converted annotations.
 2. Create a directory to store your converted annotations.
 ```rb
-python convert_YOLO_txt_to_voc_xml.py <input_dir> <output_dir>
+python convert_txt_xml.py <input_dir> <output_dir>
 ```
 where `<input_dir>` is the directory containing your COCO TXT annotations and <output_dir> is the directory where you want to store your converted annotations.
 
@@ -18,7 +18,7 @@ where `<input_dir>` is the directory containing your COCO TXT annotations and <o
 
 The following example shows how to convert the COCO TXT annotations in the `data` directory to PASCAL VOC XML annotations in the `output` directory:
 ```rb
-python convert_YOLO_txt_to_voc_xml.py data output
+python convert_txt_xml.py data output
 ```
 
 ## Output
