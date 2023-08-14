@@ -1,5 +1,5 @@
-# Convert COCO TXT to PASCAL VOC XML
-This code converts COCO TXT format to PASCAL VOC XML format. It can be used to convert annotations for object detection datasets from one format to another.
+# Convert YOLO TXT to PASCAL VOC XML
+This code converts YOLO TXT format to PASCAL VOC XML format. It can be used to convert annotations for object detection datasets from one format to another.
 ## Usage
 
 To use this code, you will need to have the following Python libraries installed:
@@ -18,7 +18,7 @@ where `<input_dir>` is the directory containing your COCO TXT annotations and <o
 
 The following example shows how to convert the COCO TXT annotations in the `data` directory to PASCAL VOC XML annotations in the `output` directory:
 ```rb
-python convert_coco_txt_to_voc_xml.py data output
+python convert_YOLO_txt_to_voc_xml.py data output
 ```
 
 ## Output
