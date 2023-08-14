@@ -12,11 +12,11 @@ Once you have installed the required libraries, you can use the following steps 
 ```rb
 python convert_txt_xml.py <input_dir> <output_dir>
 ```
-where `<input_dir>` is the directory containing your COCO TXT annotations and <output_dir> is the directory where you want to store your converted annotations.
+where `<input_dir>` is the directory containing your YOLO TXT annotations and <output_dir> is the directory where you want to store your converted annotations.
 
 ## Example
 
-The following example shows how to convert the COCO TXT annotations in the `data` directory to PASCAL VOC XML annotations in the `output` directory:
+The following example shows how to convert the YOLO TXT annotations in the `data` directory to PASCAL VOC XML annotations in the `output` directory:
 ```rb
 python convert_txt_xml.py data output
 ```
